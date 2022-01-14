@@ -5,9 +5,10 @@
 }
 .heading {
     padding: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    background-color: #1180b8;
+    color: #200000;
+    font-size: x-large;
 }
 .heading nav {
     text-align: right;
@@ -25,9 +26,24 @@ a {
     text-decoration: none;
 }
 
+section {
+    display:block;
+}
+.aboutMe h2{
+    float:right;
+}
+img {
+    width: 300px;
+    display: block;
+}
+img::after{
+    
+}
 
-@media screen and (max-width: 992px) {
-    .heading {
-      background: #772014;
+
+  @media screen and (max-width: 786px) {
+    .heading ul li {
+        display:flex;
+        flex:wrap;
+      }
     }
-  }
