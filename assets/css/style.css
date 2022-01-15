@@ -6,42 +6,45 @@
 .heading {
     padding: 40px;
     font-family: Brush Script MT, Brush Script Std, cursive;
-    background-color: #1180b8;
-    color: #200000;
-    font-size: x-large;
+    color: white;
+    font-size: 25px;
+    background-image: url(../images/code.jpg)
 }
 .heading nav {
     text-align: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-
 .heading nav ul li {
     display: inline-flex;
     margin-left: 25px;
 }
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-section {
-    display:block;
-}
-.aboutMe h2{
-    float:right;
-}
-img {
-    width: 300px;
-    display: block;
-}
-img::after{
+.heading nav ul li:hover {
+    background-color: tomato;
     
 }
 
 
-  @media screen and (max-width: 786px) {
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.aboutMe h2{
+    float:right;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+}
+.aboutMe{
+    font-size: 20px;
+}
+img {
+    width: 300px;
+    display: inline;
+    float: left;
+}
+
+@media screen and (max-width: 786px) {
     .heading ul li {
         display:flex;
         flex:wrap;
