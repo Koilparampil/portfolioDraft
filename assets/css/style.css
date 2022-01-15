@@ -1,25 +1,9 @@
-:root {
-    --outer-space: #33393f;
-    --bright-turquoise: #2aefcb;
-    --gin: #e0eae4;
-    --heliotrope: #e866ec;
-  }
-::selection {
-    background-color: var(--bright-turquoise);
-    color: var(--outer-space);
-  }
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 .heading {
     padding: 0px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     color: black;
     border-top: grey solid;
-    font-size: 25px;
+    font-size: 40px;
 }
 .heading nav {
     text-align: right;
@@ -31,48 +15,76 @@
 .heading nav ul li {
     display: inline-flex;
     margin-left: 25px;
+     
+    margin-right: 10px;
 }
-
+.heading a {
+    color: black;
+    text-decoration: none;
+}
 .heading nav ul li:hover {
     background-color: grey;
     
 }
-
-/* .code {
-    height: 100px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/code.jpg");
-    background-size: cover;
-    background-position: center;
-} */
-
-a {
-    color: black;
-    text-decoration: none;
-}
 .aboutMe h2{
-    float:right;
+    text-align: right;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 50px;
 }
 .aboutMe{
-    font-size: 20px;
+    font-size: 30px;
 }
-img {
-    width: 300px;
-    display: inline;
-    float: left;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
-.Works h2{
-    float:left;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 50px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+    background-color: grey;
 }
+
+.footer h2 {
+    font-size: 20px;
+    float: left;
+}
+.footing nav ul li {
+    display: inline-flex;
+    margin-left: 25px;
+    margin-right: 10px;
+    float:right;
+}
+.footing a{
+    color:black;
+    text-underline-offset: 5px;
+    text-underline-position: below;
+    text-decoration-thickness: 2.5px
+}
+
+
 @media screen and (max-width: 786px) {
     .heading ul li {
         display:flex;
         flex:wrap;
       }
     }
+    @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+      }
