@@ -3,12 +3,12 @@
     font-family: Brush Script MT, Brush Script Std, cursive;
     color: black;
     border-top: grey solid;
-    font-size: 40px;
+    font-size: 50px;
 }
 .heading nav {
     text-align: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     border-bottom: grey solid;
 
 }
@@ -40,16 +40,19 @@
     margin-right: auto;
     width: 20%;
 }
-
-.row {
+.Works h2{
+    text-align: left;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+}
+.column img{
+    max-width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
+}
+
+/* THe Footer is below */
 
   .footer {
     padding: 30px;
@@ -59,8 +62,8 @@
     background-color: grey;
 }
 
-.footer h2 {
-    font-size: 20px;
+footer h2 {
+    font-size: 40px;
     float: left;
 }
 .footing nav ul li {
@@ -68,6 +71,7 @@
     margin-left: 25px;
     margin-right: 10px;
     float:right;
+    font-size: 30px;
 }
 .footing a{
     color:black;
@@ -75,16 +79,21 @@
     text-underline-position: below;
     text-decoration-thickness: 2.5px
 }
+/* End of the Footer */
 
-
-@media screen and (max-width: 786px) {
+/* Media Queries are below */
+@media screen and (max-width: 992px) {
+    .heading h1{
+        font-size: 50px;
+    }
     .heading ul li {
         display:flex;
         flex:wrap;
       }
-    }
-    @media screen and (max-width: 500px) {
-        .column {
-          width: 100%;
-        }
+    .aboutMe{
+        font-size: 30px;
       }
+    .aboutMe h2{
+        font-size: 50px;
+    }
+    }
