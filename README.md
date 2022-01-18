@@ -25,7 +25,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following image shows the web application's appearance and functionality.
 
-![The Portfolio Webpage with Heading, Nav Bar, about me section and A profile Picture.](assets\images\PortfolioExample.png)
+![The Portfolio Webpage with Heading, Nav Bar, about me section and A profile Picture.](assets/images/PortfolioExample.png)
 
 
 
