@@ -57,6 +57,29 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.column2{
+    position:relative;
+    width: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.Works{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
 .overlay {
     position: absolute;
     top: 0;
@@ -83,19 +106,24 @@
   .column:hover .overlay {
     opacity: 1;
   }
+  .column2:hover .overlay {
+    opacity: 1;
+  }
 #Work2{
     width: 50%;
-    display: block;
+    min-width: 900px;
 }
 #Work2O{
     width: 50%;
+    min-width: 900px;
 }
 #Work3{
     width: 50%;
-    display: block;
+    min-width: 1000px;
 }
 #Work3O{
     width: 50%;
+    min-width: 1000px;
 }
 /* THe Footer is below */
 
@@ -124,6 +152,10 @@ footer h2 {
     text-underline-position: below;
     text-decoration-thickness: 2.5px
 }
+.footing nav ul li:hover {
+    background-color: grey;
+    
+}
 /* End of the Footer */
 
 /* Media Queries are below */
@@ -141,4 +173,38 @@ footer h2 {
     .aboutMe h2{
         font-size: 50px;
     }
+    #Work2{
+        width: 50%;
+        min-width: 500px;
     }
+    #Work2O{
+        width: 50%;
+        min-width: 500px;
+    }
+    #Work3{
+        width: 50%;
+        min-width: 700px;
+    }
+    #Work3O{
+        width: 50%;
+        min-width: 700px;
+    }
+}
+@media screen and (max-width: 786px) {
+    #Work2{
+        width: 50%;
+        min-width: 300px;
+    }
+    #Work2O{
+        width: 50%;
+        min-width: 300px;
+    }
+    #Work3{
+        width: 50%;
+        min-width: 500px;
+    }
+    #Work3O{
+        width: 50%;
+        min-width: 500px;
+    }
+}
