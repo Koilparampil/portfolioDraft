@@ -47,6 +47,9 @@
 }
 .column{
     position:relative;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
 }
 .column img{
     max-width: 100%;
@@ -64,23 +67,36 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #000405;
   }
   .text {
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     text-align: center;
   }
   .column:hover .overlay {
     opacity: 1;
   }
-
+#Work2{
+    width: 50%;
+    display: block;
+}
+#Work2O{
+    width: 50%;
+}
+#Work3{
+    width: 50%;
+    display: block;
+}
+#Work3O{
+    width: 50%;
+}
 /* THe Footer is below */
 
   .footer {
