@@ -50,6 +50,7 @@
     width: fit-content;
     display: flex;
     flex-wrap: wrap;
+    padding: 5px;
 }
 .column img{
     max-width: 100%;
