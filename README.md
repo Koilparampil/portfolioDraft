@@ -1,8 +1,26 @@
 # portfolioDraft
-First attempt at a Portfolio Website
-## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+## Description
+ A single page front-end application as a class assignment to demonstrate basic HTML and CSS skills. It is a portfolio with minimal CSS for the simple Razzle Dazzle.
+
+
+## Table Of Contents
+
+-[Deployment](#Deployment)
+
+-[Usage](#Usage)
+
+-[Contributors](#Contributors)
+
+-[Credits](#Credits)
+
+-[License](#License)
+
+-[Testing](#Testing)
+
+## Deployment 
+
+Here are the critical requirements necessary to develop a portfolio.
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -19,20 +37,21 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
-## Mock-Up 
-
-
 The following image shows the web application's appearance and functionality.
 
 ![The Portfolio Webpage with Heading, Nav Bar, about me section and A profile Picture.](assets/images/PortfolioExample.png)
 
-
-
-
-
-## Working Link
-
 The following is a working link to the page I made.
 
 [https://th3-0g-kresher.github.io/portfolioDraft/](https://th3-0g-kresher.github.io/portfolioDraft/)
+## Usage 
+
+## Contributors
+
+## Credits
+
+
+## License
+
+
+## Testing
