@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="icon" type="image/x-icon" href="assets/images/pfp.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Chris Koilparampil's Portfolio</title>
 </head>
@@ -39,35 +39,39 @@
 
     <p>In my free time I like to undertake different projects. My most recent project that was to build a fully working electric skateboard. Another 
         personal project I had undertook was restoring a dead Server that was in use for over a decade. </p>
-        <img src="assets\images\pfp.JPG" alt="Profile Picture of Chris Koilparampil" class='center'>
+        <img src="assets\images\inASuit.JPG" alt="Profile Picture of Chris Koilparampil" class='center'>
     </section>
 
     <section class='Works' id='ThisisWorks'>
         <h2>
             Works
         </h2>
-            <div class="column">
-                
+            <div class="column">                
               <img src="assets/images/cryptoCardsDemo.png" alt="Work 1" >
               <a href="https://th3-0g-kresher.github.io/crypto-cards/"><div class="overlay">
                 <div class="text">Crypto Cards</div>
             </div></a>
             </div>
+            
             <div class="column2">
                 
-                <img src="assets/images/TestClick.png" alt="PlaceHolder 1" id="Work2" >
+                <img src="assets/images/TestClick.png" alt="picture of Weather Dashboard" id="Work2" >
                 <a href="https://th3-0g-kresher.github.io/WeatherDash/"><div class="overlay" id="Work2O">
                     <div class="text">Weather Dashboard</div>
                 </div></a>
             </div> 
             <div class="column2">
                   
-                <img src="assets\images\pexels-negative-space-169573.jpg" alt="PlaceHolder 2" id="Work3">
-                <a href="#"><div class="overlay" id="Work3O">
-                    <div class="text">Work 3 (PlaceHolder)</div>
+                <img src="assets\images\initState.png" alt="picture of password Generator" id="Work3">
+                <a href="https://th3-0g-kresher.github.io/PasswordGenerator/"><div class="overlay" id="Work3O">
+                    <div class="text">Password Generator</div>
                 </div></a>
             </div>                       
-        
+        <section class="gitHubRepos">
+            <h3><a href="http://github.com/th3-0G-Kresher/crypto-cards" target="_blank" >Crypto Cards Repository</a></h3>
+            <h3><a href="http://github.com/th3-0G-Kresher/WeatherDash" target="_blank" >Weather Dashboard Repository</a></h3>
+            <h3><a href="http://github.com/th3-0G-Kresher/PasswordGenerator" target="_blank" >Password Generator Repository</a></h3>
+        </section>
     </section>
 
 
@@ -87,11 +91,34 @@
                 <a href="https://github.com/th3-0G-Kresher">GitHub</a>
             </li>
             <li>
-                <a href="mailto:koilparampil0126@gmail.com">Email</a>
+                <a href="mailto:koilparampil0126@gmail.com" id="Btn2">Email</a>
+            </li>
+            <li>
+                <a href="#ContactMe" id="myBtn">By Phone</a>
             </li>
         </ul>
     </nav>
+    <div id="PhoneModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+            <span class="close">&times;</span>
+            </div>
+            <div class="modal-footer">
+            <h3>My Phone Number is: (718)-673-0458</h3>
+            </div>
+        </div>
+    </div>
+    <div id="EmailModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+            <span class="close">&times;</span>
+            </div>
+            <div class="modal-footer">
+            <h3>My Email is: <a href="mailto:koilparampil0126@gmail.com">koilparampil0126@gmail.com</a></h3>
+            </div>
+        </div>
+    </div>
 </footer>
-
+<script src="assets/js/script.js"></script>
 </body>
 </html>
