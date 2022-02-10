@@ -43,7 +43,7 @@ The following image shows the web application's appearance and functionality.
 
 The following is a working link to the page I made.
 
-[https://th3-0g-kresher.github.io/portfolioDraft/](https://th3-0g-kresher.github.io/portfolioDraft/)
+[https://Koilparampil.github.io/portfolioDraft/](https://Koilparampil.github.io/portfolioDraft/)
 ## Usage 
 
 ## Contributors
