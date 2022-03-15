@@ -4,20 +4,6 @@
  A single page front-end application as a class assignment to demonstrate basic HTML and CSS skills. It is a portfolio with minimal CSS for the simple Razzle Dazzle.
 
 
-## Table Of Contents
-
--[Deployment](#Deployment)
-
--[Usage](#Usage)
-
--[Contributors](#Contributors)
-
--[Credits](#Credits)
-
--[License](#License)
-
--[Testing](#Testing)
-
 ## Deployment 
 
 Here are the critical requirements necessary to develop a portfolio.
@@ -44,14 +30,4 @@ The following image shows the web application's appearance and functionality.
 The following is a working link to the page I made.
 
 [https://Koilparampil.github.io/portfolioDraft/](https://Koilparampil.github.io/portfolioDraft/)
-## Usage 
 
-## Contributors
-
-## Credits
-
-
-## License
-
-
-## Testing
